@@ -11,10 +11,22 @@ nav {
     height: 70px;
     display: flex;
     background: #aaf;
+    
 }
 
 nav > .item {
+    font-size: 14pt;
+    color: white;
+    padding: 23px;
+    text-decoration: none;
     /* Add code here */
 }
 
-/* And continue here */
+nav > .item:hover {
+    opacity: 80;
+}
+
+nav > .item:last-child {
+    color: #eee;
+    margin-left: auto;
+}
