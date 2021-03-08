@@ -36,5 +36,5 @@ div > div.container{
 }
 
 div > div.centered {
-    align-self: center;
+    text-align: center;
 }
