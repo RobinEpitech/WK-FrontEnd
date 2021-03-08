@@ -30,3 +30,11 @@ nav > .item:last-child {
     color: #eee;
     margin-left: auto;
 }
+
+div > div.container{
+    padding: 20px;
+}
+
+div > div.centered {
+    align-self: center;
+}
